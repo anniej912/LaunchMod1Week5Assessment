@@ -2,23 +2,23 @@
 
 ## Questions (10 Points Possible)
 1. What would happen if you try to use a variable that is not in scope?
-
+That variable wouldn't work because in the program, it does not exist outside of the scope.
 2. Describe the three As of a test:  
-A -   
-A -   
-A -   
+A -  Arrange- this is the part of your code that you need to set it up the test 
+A -  Act- this is the method we are executing to test(can be located in the Assert) 
+A -  Assert- this is where we test to the method 
 
 3. What is the difference between `public` and `private` access modifiers?
-
+Public access modifiers allow methods and classes to be used outside of their own class while private access modifiers can only be used within the class they were built.
 4. A method should:  (**Select all that apply**) <br/>
-(A) Make changes to an object  
-(B) Return some information about an object  
-(C) Make changes to an object and return information about the object.  
+(A) Make changes to an object  <<<<<<<
+(B) Return some information about an object  <<<<<<< 
+(C) Make changes to an object and return information about the object. <<<<<<< 
 (D) None of the Above.  
 
 
 5. How did you determine what to answer for the question above?
-
+A method can be either be a query(give information) or commmand(change information) method. It can be both but refactoring of that method would be recommended :)
 ## Exercise (10 Points Possible)
 
 Clone your forked copy of this repository into Visual Studio.  
